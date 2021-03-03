@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -fPIC -std=c++14 -g  -shared -Wl,-soname,libpocket.so -o libpocket.so CMakeFiles/pocket.dir/pypocket.cxx.o CMakeFiles/pocket.dir/pocket_dispatcher.cc.o  -Wl,-rpath,/home/ubuntu/project/pocket/client/build/client: /usr/lib/x86_64-linux-gnu/libboost_python38.so.1.71.0 ../client/libcppcrail.so 
